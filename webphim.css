@@ -4,7 +4,7 @@ body {
       background-color: #070e14;
       font-family: Arial, sans-serif;
       color: white;
-      overflow: hidden;
+      overflow-x: hidden;
     }
 
     .topbar {
@@ -456,6 +456,7 @@ transform: translateY(-5px);
 @media (max-width: 599px){
   .body{
     overflow-x:hidden ;
+        width: 100%;
   }
   .user-actions{
     display: none;
